@@ -9,6 +9,19 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
+{
+    int atributo1;
+}
+
+int suma( int a,  int b)
+{
+    return a + b;
+}
+
++(int)suma:(int)a con:(int)b
+{
+    return  a + b;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

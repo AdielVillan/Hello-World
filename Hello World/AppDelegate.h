@@ -12,4 +12,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
++(int)suma:(int)a con:(int)b;
+
 @end

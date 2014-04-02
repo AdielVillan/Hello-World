@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "AppDelegate.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    printf("%d\n",[AppDelegate suma:3 con:4]);
+    NSLog(@"\n%d",[AppDelegate suma:3 con:4]);
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
